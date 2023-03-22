@@ -62,6 +62,19 @@ body {
     background-color: rgb(93, 135, 173);
 }
 
+.circle .active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    /* border: 2px solid red; */
+    color: black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(93, 135, 173);
+}
+
 .btn {
     cursor: pointer;
     border-radius: 5px;
